@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    background: #000;
+    padding: 15px 0;
+}
+
+.nav__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLogo {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.intro {
+    background: url(../images/intro.png);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+}
+
+.introTitle {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 145px;
+}
+
+.introLink {
+    text-decoration: none;
+    border-radius: 10px;
+    background: #FFF;
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 10px 24px;
+}
+
+.about {
+    background: #0E1C25;
+    padding-top: 30px;
+    padding-bottom: 110px;
+}
+
+.aboutTitle {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.aboutBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutCard {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.aboutCardTitle {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutTxt {
+    width: 466px;
+    height: 397px;
+    color: #FFF;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.work {
+    background: #5C6B81;
+    padding-top: 43px;
+    padding-bottom: 70px;
+}
+
+.workBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.workCard {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    width: 312px;
+    border-radius: 10px;
+    background: #B12B06;
+}
+
+.workCardTitle {
+    margin-top: 20px;
+    margin-bottom: 21px;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.workTxt {
+    color: #FFF;
+    width: 264px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 27px;
+}
+
+.workBtn {
+    width: 168px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #000;
+    border: none;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 21px;
+    cursor: pointer;
+}
+
+footer {
+    background: #000;
+    padding-top: 47px;
+    padding-bottom: 62px;
+}
+
+.footerTitle {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footerBox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}

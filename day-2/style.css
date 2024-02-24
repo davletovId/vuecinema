@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://img.freepik.com/premium-photo/mercedes-benz-is-brand-luxury-car-brand_853177-19439.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1698883200&semt=ais);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid gold;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

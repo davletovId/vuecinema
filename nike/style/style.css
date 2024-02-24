@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    background: #322E41;
+}
+
+.navBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navList {
+    display: flex;
+    list-style-type: none;
+}
+
+.navLink {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.5s;
+    display: block;
+    padding: 23px 18px;
+}
+
+.navLink:hover {
+    background-color: #FFF;
+    color: #D47300;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/nikeSneakers.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.introTitle {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.introTxt {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.introTxt span {
+    font-weight: 700;
+}
+
+.main {
+    background: #EBEBEB;
+}
+
+.nikeBox {
+    display: flex;
+    gap: 30px;
+    transform: translateY(-30px);
+}
+
+.nikeLeft {
+    max-width: 540px;
+    width: 100%;
+    border-radius: 6px;
+    background: #FFF;
+    padding: 15px;
+}
+
+.nikeLeft img {
+    margin-bottom: 20px;
+}
+
+.nikeTitle {
+    color: #2C2A2A;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.nikeTxt {
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nikeRight {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.nikeCard {
+    width: 255px;
+    border-radius: 6px;
+    background: #FFF;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    background: #322E41;
+    padding: 40px 0;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    border-radius: 6px;
+    background: #FFF;
+    border: none;
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    outline: none;
+}
+
+form textarea {
+    border-radius: 6px;
+    background: #FFF;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px;
+    height: 85px;
+    outline: none;
+    resize: none;
+}
+
+form button {
+    border-radius: 6px;
+    background: #544294;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    cursor:wait;
+}
+
+.footerInfo {
+    display: flex;
+    gap: 73px;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    margin-top: 36px;
+}
+
+.footerLink {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+}
+.footerLink:hover{
+    color: #D47300;
+}
+.footerMedia{
+    display: flex;
+    align-items: center;
+}
